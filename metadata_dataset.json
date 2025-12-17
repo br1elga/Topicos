@@ -1,0 +1,30 @@
+{
+  "title": "dataset_iot_simulation_building_sensors",
+  "description": "Conjunto de datos simulado de telemetr\u00eda IoT para proyecto acad\u00e9mico sobre seguridad en redes IoT. Valores generados en Packet Tracer/Simulaci\u00f3n para sensores de temperatura, humedad, movimiento, luz, vibraci\u00f3n y CO2.",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Briel [Apellido]",
+      "affiliation": "Universidad [Nombre]",
+      "email": "briel.perez@ejemplo.com"
+    }
+  ],
+  "created": "2025-01-01",
+  "fields": {
+    "timestamp": "ISO 8601 timestamp of reading",
+    "device_id": "unique device identifier",
+    "device_type": "device hardware type",
+    "sensor_type": "type of measured sensor",
+    "value": "sensor reading value",
+    "unit": "measurement unit",
+    "location": "logical location in simulated building",
+    "vlan": "assigned VLAN for the device",
+    "ip": "IP address used in simulation",
+    "note": "free text note, e.g., anomalies"
+  },
+  "license": "CC-BY-4.0",
+  "repository": "https://github.com/<tu_usuario>/iot-security-dataset",
+  "how_generated": "Simulated data exported from Packet Tracer experiment and synthetic augmentation for demonstration. Not real-world measurements.",
+  "usage_notes": "Intended for academic use, reproducibility and teaching. Do not treat as real sensor data.",
+  "citation": "Briel [Apellido]. (2025). dataset_iot_simulation_building_sensors (Version 1.0) [Dataset]. GitHub. https://github.com/<tu_usuario>/iot-security-dataset"
+}
